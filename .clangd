@@ -1,0 +1,12 @@
+CompileFlags:
+  Add: 
+    - "-I/usr/include/qt6"  # Linux Qt6
+    - "-ID:/Qt/6.10.2/mingw_64/include"  # Windows Qt6
+    - "-ID:/Qt/6.10.2/mingw_64/include/QtWidgets"  # 具体模块路径
+    - "-ID:/Qt/6.10.2/mingw_64/include/QtCore"
+    - "-ID:/Qt/6.10.2/mingw_64/include/QtGui"
+    - "-std=c++17"
+    - "-DQT_CORE_LIB"
+    - "-DQT_GUI_LIB"
+    - "-DQT_WIDGETS_LIB"
+  Compiler: clang++
